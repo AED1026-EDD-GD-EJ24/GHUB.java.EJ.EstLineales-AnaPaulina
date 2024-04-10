@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Vector;
 
 public class HashTable2 <T>{
-    private HashTable2<String, LinkedList<T>> tabla;
+    private Hashtable<String, LinkedList<T>> tabla;
     private Vector<String> claves;
 
     public HashTable2(){

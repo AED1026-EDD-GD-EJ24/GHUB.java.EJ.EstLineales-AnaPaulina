@@ -3,12 +3,15 @@
 ./miPrincipal/DemoPila.java
 ./miPrincipal/DemoStack.java
 ./miPrincipal/DemoQueue.java
+./miPrincipal/TestVector.java
 ./miPrincipal/HashTable2.java
 ./miPrincipal/DemoDelimitador.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Cola.java
 ./miPrincipal/Nodo.java
+./miPrincipal/UNombre.java
+./miPrincipal/Persona.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Delimitadores.java
 ./miTest/AppTest.java
