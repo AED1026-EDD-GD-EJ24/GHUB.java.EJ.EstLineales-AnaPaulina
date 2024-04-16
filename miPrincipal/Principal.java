@@ -3,7 +3,7 @@ package miPrincipal;
 import java.util.Scanner;
 
 public class Principal {
-    public static void main(String[] args) {
+    public static void main(String[] args)throws PosicionIlegalException {
       Scanner consola = new Scanner(System.in);
       int opc =0;
       do{
@@ -50,6 +50,9 @@ public class Principal {
                 DemoEstCombinada.menu();break;
                 case 9:
                 DemoListaSimple.menu();break;
+                case 10:
+                DemoArrayListyLinkedList.menu();break;
+                
               case 0:
                   System.out.println("ADIOS!");
                   //consola.close();
