@@ -47,37 +47,40 @@ public class DemoArrayListyLinkedList {
 
 
 
-        //utilizar 
-        lista2.add(null);
-        lista2.add(null);
-        lista2.add(15);
-        lista2.add(24);
+         //Utilizar ArrayLista
+         lista2.add(10);
+         lista2.add(15);
+         lista2.add(24);
 
-        System.out.println("Datos despues de la insercion");
-        System.out.println("Dato en la posición 0: "+lista2.get(0));
-        System.out.println("Dato en la posición 1: "+lista2.get(1));
-        System.out.println("Dato en la posición 2: "+lista2.get(2));
-        System.out.println("Dato en la posición 3: "+lista2.get(3));
-        System.out.println("Dato en la posición 4: "+lista2.get(4));
-          
-        //recorre la coleccion 
-          for (Integer aux : lista2) {
-            System.out.println("Elemento: "+aux); 
-        }
+         lista2.add(1,23);
+         lista2.add(3,26);
+
+         System.out.println("Datos después de la inserción");
+         System.out.println("Dato en la posicion 0:"+lista2.get(0));
+         System.out.println("Dato en la posicion 1:"+lista2.get(1));
+         System.out.println("Dato en la posicion 2:"+lista2.get(2));
+         System.out.println("Dato en la posicion 3:"+lista2.get(3));
+         System.out.println("Dato en la posicion 4:"+lista2.get(4));
+
+         //Recorrer la coleccion utilizando iteradores
+         for(Integer aux:lista2){
+             System.out.println("Elemento: "+aux);
+         }
+
+         lista2.remove(0);
+         lista2.remove(3);
+
+         System.out.println("Datos depues de la eliminación");
+         for(Integer aux:lista2){
+             System.out.println("Elemento: "+aux);
+         }
+         System.out.println("La posicion que ocupa el elemento 15:"+lista2.indexOf(15));
+         lista2.set(0,100);
+         System.out.println("Dato de la posicion 0:"+lista2.get(0));
+         System.out.println("Tamano de LiskedList:"+lista.size());
+         System.out.println("Tamaño de ArrayList:"+lista2.size());
 
 
-        lista.remove(0);
-        lista.remove(3);
-        //recorre la coleccion 
-        for (Integer aux : lista2) {
-            System.out.println("Elemento: "+aux);
-        }
-        System.out.println("La posicion que ocupa el elemento 15: "+lista2.indexOf(15));
-        lista2.set(0, 100);
-        System.out.println("Dato de la posicion 0: "+lista2.get(0));
-
-        System.out.println("Tamaño de LinkedList: "+lista.size());
-        System.out.println("Tamaño de ArrayList: "+lista.size());
         }
         catch(Exception e){
             e.printStackTrace();

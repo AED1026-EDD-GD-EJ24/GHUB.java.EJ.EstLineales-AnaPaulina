@@ -1,7 +1,9 @@
+./personas/Persona.java
 ./miPrincipal/DemoEstCombinada.java
 ./miPrincipal/Lista.java
 ./miPrincipal/DemoTablaDispersion.java
 ./miPrincipal/DemoPila.java
+./miPrincipal/DemoArrayListPersonas.java
 ./miPrincipal/DemoStack.java
 ./miPrincipal/DemoQueue.java
 ./miPrincipal/TestVector.java
