@@ -5,6 +5,7 @@
 ./miPrincipal/DemoPila.java
 ./miPrincipal/DemoArrayListPersonas.java
 ./miPrincipal/DemoStack.java
+./miPrincipal/DemoLinkedListCuadrupedos.java
 ./miPrincipal/DemoQueue.java
 ./miPrincipal/TestVector.java
 ./miPrincipal/HashTable2.java
@@ -21,3 +22,4 @@
 ./miPrincipal/DemoListaSimple.java
 ./miPrincipal/Delimitadores.java
 ./miTest/AppTest.java
+./cuadrupedo/cuadrupedo.java

@@ -26,7 +26,7 @@ public class DemoLinkedListCuadrupedos {
 
                 
             }
-            int leonCount=0,gatoCount=0,perroCount=0,elefnateCount=0;
+            int leonCount=0,gatoCount=0,perroCount=0,elefanteCount=0;
             for(cuadrupedo cuadrupedo:cuadrupedos){
                 if (cuadrupedo.getIdCuadrupedo()%1000==0) {
                     System.out.println("ID= "+cuadrupedo.getIdCuadrupedo()+" tipo: "+cuadrupedo.getTipo());
@@ -42,17 +42,19 @@ public class DemoLinkedListCuadrupedos {
                         perroCount++;
                         break;
                     case "Elefante":
-                    elefnateCount++;
-                        
+                        elefanteCount++;
                         break;
-                
                     default:
                         break;
                 }
 
             }
-
-
+            //RESUMEN
+            System.out.println("RESUMEN");
+            System.out.println("Leones= "+leonCount);
+            System.out.println("Gatos= "+gatoCount);
+            System.out.println("Perros= "+perroCount);
+            System.out.println("Elefantes= "+elefanteCount);
         } catch (Exception e) {
             e.printStackTrace();
         }
