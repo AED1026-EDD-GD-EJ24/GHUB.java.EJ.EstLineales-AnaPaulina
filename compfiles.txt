@@ -2,6 +2,9 @@
 ./miPrincipal/DemoEstCombinada.java
 ./miPrincipal/Lista.java
 ./miPrincipal/DemoTablaDispersion.java
+./miPrincipal/DemoListaDeContactos.java
+./miPrincipal/listaDoble/ListaDoblementeEnlazada.java
+./miPrincipal/listaDoble/Nodo.java
 ./miPrincipal/DemoPila.java
 ./miPrincipal/DemoArrayListPersonas.java
 ./miPrincipal/DemoStack.java
@@ -14,12 +17,17 @@
 ./miPrincipal/DemoCola.java
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/Pila.java
+./miPrincipal/ListaCircular.java
 ./miPrincipal/Cola.java
 ./miPrincipal/Nodo.java
+./miPrincipal/DemoListaDobleLigada.java
 ./miPrincipal/UNombre.java
 ./miPrincipal/Persona.java
+./miPrincipal/DemoListaCircular.java
 ./miPrincipal/Principal.java
 ./miPrincipal/DemoListaSimple.java
 ./miPrincipal/Delimitadores.java
+./miPrincipal/Contacto.java
+./miPrincipal/ListaDeContactos.java
 ./miTest/AppTest.java
 ./cuadrupedo/cuadrupedo.java

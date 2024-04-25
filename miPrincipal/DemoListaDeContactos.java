@@ -52,8 +52,7 @@ public class DemoListaDeContactos {
         //buscar un contacto
         Contacto con=ldc.buscarContacto("Maria Andrea", "Vargas");
         System.out.println("Elemento buscado: "+con);
-        Contacto con=ldc.buscarContacto("Maria Andrea", "Vargas");
-        System.out.println("Elemento buscado: "+con);
+        
         
     }
 }
