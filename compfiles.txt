@@ -4,6 +4,7 @@
 ./miPrincipal/DemoTablaDispersion.java
 ./miPrincipal/DemoListaDeContactos.java
 ./miPrincipal/listaDoble/ListaDoblementeEnlazada.java
+./miPrincipal/listaDoble/ListaDobleCircular.java
 ./miPrincipal/listaDoble/Nodo.java
 ./miPrincipal/DemoPila.java
 ./miPrincipal/DemoArrayListPersonas.java
@@ -16,6 +17,7 @@
 ./miPrincipal/DemoArrayListyLinkedList.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/PosicionIlegalException.java
+./miPrincipal/DemoListaDobleCircular.java
 ./miPrincipal/Pila.java
 ./miPrincipal/ListaCircular.java
 ./miPrincipal/Cola.java
