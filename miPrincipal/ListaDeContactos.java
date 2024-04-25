@@ -33,20 +33,51 @@ public class ListaDeContactos {
         }
         return null;//si no encuentra regresa null
     }
-    //elimina n contacto dado sus nombres y apellidos si el usuario existe en la lista lo elimina 
-    //return true si se puede 
-    public boolean eliminarContacto(String nombres, String apellidos) throws PosicionIlegalException{
-        Contacto con=buscarContacto(nombres, apellidos);
-        if(con!=null){
-            for (int i = 0; i < contactos.getTamaño(); i++) {
-                Contacto con=contactos.getValor(i);
-                if (nombres.equals(con.getNombres()) && apellidos.equals(con.getApellidos())) {
-                    return con;
+    /*
+     * Elimina un contacto dados sus nombres y sus apellidos
+     * si el usuario existe en la lista lo elimina
+     * @return true si se pudo eliminar , falso si no se 
+     * pudo eliminar
+     * @throws PosicionIlegalException
+     */
+    public boolean eliminaContacto(String nombres, String apellidos)
+          throws PosicionIlegalException{
+
+            Contacto con = buscarContacto(nombres,apellidos);
+            if(con !=null){
+                for(int i=0;i<this.contactos.getTamaño();i++){
+                    Contacto contAux = contactos.getValor(i);
+                    if(contAux.getNombres().equals(nombres) && 
+                       contAux.getApellidos().equals(apellidos))
+                    {
+                        contactos.remover(i);
+
+                    }
                 }
+                return true;
+            }else{
+                return false;
+            }
+    }
+
+    public boolean modificarContacto(String nombres, String apellidos,
+          String direccion, String correo, String telefono, String celular)
+           throws PosicionIlegalException{
+            //verificar si el contacto existe
+            Contacto con = buscarContacto(nombres, apellidos);
+            if(con==null){
+                return false;
+            }
+            else{
+                //Modifica el contacto con los nuevos datos
+                con.setDireccion(direccion);
+                con.setCorreo(correo);
+                con.setTelefono(telefono);
+                con.setCelular(celular);
+                return true;
             }
 
-        }
-
     }
+
 
 }
