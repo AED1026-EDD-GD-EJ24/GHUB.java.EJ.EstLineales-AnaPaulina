@@ -36,6 +36,8 @@ public class Lista<T> {
             aux.setSiguiente(nuevo);
         }
     }
+    
+            
     public void insertar(T valor, int pos) throws PosicionIlegalException{
         if(pos>=0 && pos<=tamaño){
             Nodo<T> nuevo = new Nodo<T>();
@@ -75,6 +77,7 @@ public class Lista<T> {
         
             
     }
+
     //Devueve el valor de una determinada posicion
     public T getValor(int pos) throws PosicionIlegalException{
         if(pos>=0 && pos<tamaño)
