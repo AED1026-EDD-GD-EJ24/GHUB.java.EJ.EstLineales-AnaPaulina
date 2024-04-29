@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.LinkedList;
 import java.util.Random;
 import cuadrupedo.cuadrupedo;
-import java.util.Iterator;
 public class DemoLinkedListCuadrupedos {
     public static void menu(){
         System.out.println("************************");

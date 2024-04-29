@@ -5,7 +5,7 @@ public class DemoListaSimple {
         System.out.println("************************");
         System.out.println("   LISTA SIMPLE   ");
         System.out.println("************************");
-        System.err.println();
+        System.out.println();
         Lista<Integer> lista = new Lista<Integer>();
         lista.agregar(12); //0
         lista.agregar(15); //1

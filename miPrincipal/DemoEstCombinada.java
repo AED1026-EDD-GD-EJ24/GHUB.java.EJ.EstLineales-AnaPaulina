@@ -1,6 +1,5 @@
 package miPrincipal;
 import java.util.Collection;
-import java.util.Hashtable;
 import java.util.LinkedList;
 public class DemoEstCombinada {
     public static void menu(){

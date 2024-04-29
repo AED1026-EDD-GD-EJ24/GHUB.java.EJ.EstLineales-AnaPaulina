@@ -1,43 +1,44 @@
 package miPrincipal;
 
 public class Lista<T> {
-    //Atributos
-    private Nodo <T> cabeza;//primer elemento de la lista
-    private int tamaño;//total de elementos
-    public Lista(){//constructor por defcto
-        cabeza=null;
-        tamaño=0;
+    //Atributos 
+    //primer nodo de la lista
+    private Nodo<T> cabeza;
+    // total de elementos en la lista
+    private int tamaño;
+    //Constructor por defecto
+    public Lista(){
+        cabeza= null;
+        tamaño = 0;
     }
-    
-    public int getTamaño() {//devuelve tamaño de lista
+    //Devuelve el tamaño de la lista
+    public int getTamaño() {
         return tamaño;
     }
-
-    //consulta si es vacia
+    //Consulta si la lista esta vacia
     public boolean esVacia(){
-        if (cabeza == null) 
-            return true;
-        return false;
-    }   
-
-    //Agrega un nuevonodo al final de la lista
+        if (cabeza == null)
+            return true;    
+        else
+            return false;  
+    }
+    //Agrega un nuevo nodo al final de la lista
     public void agregar(T valor){
-
-        Nodo<T> nuevo=new Nodo<T>();
+        Nodo<T> nuevo = new Nodo<T>();
         nuevo.setValor(valor);
-        if (esVacia()) {
-            cabeza=nuevo;
-        }else{
-            //Agregar alfinal de lista
-            Nodo <T> aux= cabeza;
-            while (aux.getSiguiente()!=null) {
-                aux=aux.getSiguiente();
-            }
+        if (esVacia()){
+            cabeza = nuevo; 
+        }else{  
+            //agregar al final de la lista  
+            Nodo<T> aux = cabeza;
+            while(aux.getSiguiente()!=null){
+                aux = aux.getSiguiente();
+            }   
             aux.setSiguiente(nuevo);
         }
+        tamaño++;
+
     }
-    
-            
     public void insertar(T valor, int pos) throws PosicionIlegalException{
         if(pos>=0 && pos<=tamaño){
             Nodo<T> nuevo = new Nodo<T>();
@@ -77,7 +78,6 @@ public class Lista<T> {
         
             
     }
-
     //Devueve el valor de una determinada posicion
     public T getValor(int pos) throws PosicionIlegalException{
         if(pos>=0 && pos<tamaño)
@@ -132,4 +132,9 @@ public class Lista<T> {
 
     }
 
+
 }
+
+    
+    
+    

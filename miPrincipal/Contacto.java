@@ -7,10 +7,9 @@ public class Contacto {
     private String correo;
     private String telefono;
     private String celular;
-    //metodos
-    //constructor
-    public Contacto(String nombres, String apellidos, String direccion, String correo, String telefono,
-            String celular) {
+    //Metodos
+    public Contacto(String nombres, String apellidos, String direccion,
+            String correo, String telefono, String celular) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.direccion = direccion;
@@ -18,7 +17,7 @@ public class Contacto {
         this.telefono = telefono;
         this.celular = celular;
     }
-    //getter setter 
+    //getter y setter
     public String getNombres() {
         return nombres;
     }
