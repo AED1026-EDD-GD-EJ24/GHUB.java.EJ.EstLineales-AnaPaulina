@@ -132,6 +132,12 @@ public class Lista<T> {
 
     }
 
+    public void concatLista(Lista<T> lst1, Lista<T> lst2)throws PosicionIlegalException{
+        for (int i = 0; i < lst2.getTamaño(); i++) {
+            lst1.agregar(lst2.getValor(i));
+        }
+    }
+
 
 }
 

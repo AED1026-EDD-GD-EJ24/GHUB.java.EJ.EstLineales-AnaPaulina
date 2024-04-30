@@ -26,6 +26,7 @@ public class Principal {
           System.out.println("14) Lista Doblemente Ligada");
           System.out.println("15) Lista Circular");
           System.out.println("16) Lista Doblemente Circular");
+          System.out.println("17) CONCATENAR LISTAS EXAMEN");
 
           System.out.println();
 
@@ -70,6 +71,8 @@ public class Principal {
                DemoListaCircular.menu(); break;
                case 16:
                DemoListaDobleCircular.menu(); break;
+               case 17:
+               Concatenar2Listas.menu(); break;
 
               case 0:
                   System.out.println("ADIOS!");

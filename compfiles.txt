@@ -25,6 +25,7 @@
 ./miPrincipal/DemoListaDobleLigada.java
 ./miPrincipal/UNombre.java
 ./miPrincipal/Persona.java
+./miPrincipal/Concatenar2Listas.java
 ./miPrincipal/DemoListaCircular.java
 ./miPrincipal/Principal.java
 ./miPrincipal/DemoListaSimple.java
